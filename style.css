@@ -1,0 +1,93 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 2em;
+    background-color: #fcd5ce;
+    color: white; 
+    font-size: 1.8em;
+  }
+  
+  h1 {
+    font-family: verdana, arial, sans-serif; 
+    font-size: 1.6em
+  }
+  
+  button {
+    background-color: #e8a598; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  #gameButtonArea > button {
+    width:200px;
+    height:200px;
+    margin:2px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #button1 {
+      background: #90e0ef;
+  }
+  
+  #button1:active, #button1.lit {
+      background:#0077b6;
+  }
+  
+  #button2 {
+      background: #95d5b2;
+  }
+  
+  #button2:active, #button2.lit {
+      background:#40916c;
+  }
+  
+  #button3 {
+      background: #eeef20;
+  }
+  
+  #button3:active, #button3.lit {
+      background:#d4d700;
+  }
+  
+  #button4 {
+      background: #ff85a1;
+  }
+  
+  #button4:active, #button4.lit {
+      background: #ff0a54;
+  }
+  #button5 {
+      background: orchid;
+  }
+  
+  #button5:active, #button5.lit {
+      background: darkorchid	;
+  }
+  #button6 {
+      background: tan;
+  }
+  
+  #button6:active, #button6.lit {
+      background: thistle;
+  }
+  #button7 {
+      background: #d7b9d5;
+  }
+  
+  #button7:active, #button7.lit {
+      background: #b388eb;
+  }
+  #button8 {
+      background: orange;
+  }
+  
+  #button8:active, #button8.lit {
+      background: #f26419;
+  }
