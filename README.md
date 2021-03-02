@@ -1,7 +1,7 @@
 # LightSoundMemoryGame
-IMPORTANT - This is the Glitch code URL to view the project on gltich [CLICK ME TO VIEW CODE ON GLITCH](https://glitch.com/edit/#!/actually-candle-aerosteon) 
+IMPORTANT - This is the Glitch code URL to view the project on gltich  "https://glitch.com/edit/#!/actually-candle-aerosteon"
 
-Please view the link above to view the project code on Glitch or copy paste the following link to you browser "https://glitch.com/edit/#!/actually-candle-aerosteon"
+Please view the link above to view the project code on Glitch!!!
 
 
 The light sound memory game is a simple game built using Html, Css and JavaScript as a pre assignment for the SITE Tech Excellence Internship with CodePath. 
