@@ -157,8 +157,6 @@ function winGame() {
 function timeout() {
 	stopGame();
 	alert('GAME OVER. Your ran out of time and lost :( ');
-	resetTimer();
-	strikes = 0;
 }
 function guess(btn) {
 	console.log('user guessed: ' + btn);
@@ -167,6 +165,7 @@ function guess(btn) {
 	}
 	if (parseInt(timer.innerHTML) == 0) {
 		timeout();
+		return;
 	}
 	// add game logic here
 	if (pattern[guessCounter] != btn) {
@@ -174,7 +173,7 @@ function guess(btn) {
 		strikesElement.innerHTML = '' + strikes;
 		//Guess was incorrect
 		//GAME OVER: LOSE!
-		if (strikes < 3) {
+		if (strikes <= 3) {
 			progress++;
 			playClueSequence();
 		} else {
@@ -183,7 +182,6 @@ function guess(btn) {
 	}
 	if (pattern[guessCounter] == btn) {
 		//Guess was correct
-
 		if (guessCounter == progress) {
 			if (progress == pattern.length - 1) {
 				//GAME OVER: WIN!
